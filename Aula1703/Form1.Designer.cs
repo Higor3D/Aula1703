@@ -33,12 +33,13 @@ namespace Aula1703
             this.buttonNao = new System.Windows.Forms.Button();
             this.buttonSim = new System.Windows.Forms.Button();
             this.buttonCor = new System.Windows.Forms.Button();
+            this.labelNome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelPergunta
             // 
             this.labelPergunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPergunta.Location = new System.Drawing.Point(182, -4);
+            this.labelPergunta.Location = new System.Drawing.Point(206, -11);
             this.labelPergunta.Name = "labelPergunta";
             this.labelPergunta.Size = new System.Drawing.Size(440, 464);
             this.labelPergunta.TabIndex = 0;
@@ -82,11 +83,23 @@ namespace Aula1703
             this.buttonCor.UseVisualStyleBackColor = false;
             this.buttonCor.Click += new System.EventHandler(this.buttonCor_Click);
             // 
+            // labelNome
+            // 
+            this.labelNome.AutoSize = true;
+            this.labelNome.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNome.Location = new System.Drawing.Point(12, 626);
+            this.labelNome.Name = "labelNome";
+            this.labelNome.Size = new System.Drawing.Size(274, 24);
+            this.labelNome.TabIndex = 4;
+            this.labelNome.Text = "Higor Gomes Dias Rocha";
+            this.labelNome.Click += new System.EventHandler(this.label1_Click);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 649);
+            this.Controls.Add(this.labelNome);
             this.Controls.Add(this.buttonCor);
             this.Controls.Add(this.buttonSim);
             this.Controls.Add(this.buttonNao);
@@ -96,6 +109,7 @@ namespace Aula1703
             this.MouseEnter += new System.EventHandler(this.FormPrincipal_MouseEnter);
             this.MouseLeave += new System.EventHandler(this.FormPrincipal_MouseLeave);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -105,6 +119,7 @@ namespace Aula1703
         private System.Windows.Forms.Button buttonNao;
         private System.Windows.Forms.Button buttonSim;
         private System.Windows.Forms.Button buttonCor;
+        private System.Windows.Forms.Label labelNome;
     }
 }
 
