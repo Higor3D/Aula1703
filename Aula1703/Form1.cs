@@ -61,18 +61,33 @@ namespace Aula1703
 
         private void buttonCor_Click(object sender, EventArgs e)
         {
-
+            colorido();
         }
 
-        void color() {
-            Random sorteio = new Random();
+        void colorido() {
+            Random sort = new Random();
 
-           var o = new Point(sorteio.Next(1,7));
+            int o = sort.Next(1,7);
 
             switch (o)
             {
                 case 1:
-
+                    labelPergunta.ForeColor = Color.Red;
+                    break;
+                case 2:
+                    labelPergunta.ForeColor = Color.Blue;
+                    break;
+                case 3:
+                    labelPergunta.ForeColor = Color.Green;
+                    break;
+                case 4:
+                    labelPergunta.ForeColor = Color.Yellow;
+                    break;
+                case 5:
+                    labelPergunta.ForeColor = Color.Brown;
+                    break;
+                case 6:
+                    labelPergunta.ForeColor = Color.Pink;
                     break;
             }
         }

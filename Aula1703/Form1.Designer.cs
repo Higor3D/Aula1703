@@ -38,16 +38,16 @@ namespace Aula1703
             // labelPergunta
             // 
             this.labelPergunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPergunta.Location = new System.Drawing.Point(160, -151);
+            this.labelPergunta.Location = new System.Drawing.Point(182, -4);
             this.labelPergunta.Name = "labelPergunta";
-            this.labelPergunta.Size = new System.Drawing.Size(462, 432);
+            this.labelPergunta.Size = new System.Drawing.Size(440, 464);
             this.labelPergunta.TabIndex = 0;
             this.labelPergunta.Text = "Gostaria do conceito Atendido para esta Unidade Curricular (UC10)?";
             // 
             // buttonNao
             // 
             this.buttonNao.BackColor = System.Drawing.Color.Salmon;
-            this.buttonNao.Location = new System.Drawing.Point(76, 310);
+            this.buttonNao.Location = new System.Drawing.Point(71, 475);
             this.buttonNao.Name = "buttonNao";
             this.buttonNao.Size = new System.Drawing.Size(125, 57);
             this.buttonNao.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace Aula1703
             // 
             this.buttonSim.BackColor = System.Drawing.Color.LightGreen;
             this.buttonSim.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonSim.Location = new System.Drawing.Point(496, 309);
+            this.buttonSim.Location = new System.Drawing.Point(534, 475);
             this.buttonSim.Name = "buttonSim";
             this.buttonSim.Size = new System.Drawing.Size(125, 58);
             this.buttonSim.TabIndex = 2;
@@ -74,7 +74,7 @@ namespace Aula1703
             // buttonCor
             // 
             this.buttonCor.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.buttonCor.Location = new System.Drawing.Point(295, 386);
+            this.buttonCor.Location = new System.Drawing.Point(304, 547);
             this.buttonCor.Name = "buttonCor";
             this.buttonCor.Size = new System.Drawing.Size(119, 52);
             this.buttonCor.TabIndex = 3;
@@ -86,7 +86,7 @@ namespace Aula1703
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 649);
             this.Controls.Add(this.buttonCor);
             this.Controls.Add(this.buttonSim);
             this.Controls.Add(this.buttonNao);
